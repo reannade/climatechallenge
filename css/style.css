@@ -1,0 +1,22 @@
+
+
+* {
+    margin:0;
+    padding:0;
+}
+
+
+html, body {
+    width:100%;
+    height:100%;
+    background-color:#a2e3f2;
+}
+
+body {
+    display:grid;
+    grid-template-columns: Auto 5fr;
+    background-color: #a2e3f2;
+    background-size: cover;
+    Font-size: 16px;
+    font-family:sans-serif;
+}
