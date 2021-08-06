@@ -1,5 +1,3 @@
-
-
 * {
     margin:0;
     padding:0;
@@ -14,9 +12,113 @@ html, body {
 
 body {
     display:grid;
-    grid-template-columns: Auto 5fr;
+    grid-template-columns: 1fr 8fr;
     background-color: #a2e3f2;
-    background-size: cover;
     Font-size: 16px;
     font-family:sans-serif;
 }
+
+nav {
+    background-color: #92b3ed;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li img {
+    width: 90px;
+    margin-left: 1.5em;
+    margin-top: 1em;
+    border-radius: 50%;
+}
+
+nav ul li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 1em;
+    text-decoration: none;
+    transition: all 0.5s;
+    margin: 5px;
+    background-color:#4a7ed9;
+}
+
+nav ul li a:hover {
+    background-color:#194288;
+}
+
+h1 {
+    display:block;
+    background-color:white;
+    border: 3px solid #92b3ed;
+    padding: 15px;
+    margin: 20px 100px;
+    text-align: center;
+}
+
+section {
+    display: block;
+    background-color:#92b3ed;
+    padding: 15px;
+    margin: 20px;
+}
+
+div.div-1 {
+    display:grid;
+    grid-template-columns:2.5fr 1fr;
+}
+
+
+div.game {
+    display:block;
+    background-color:white;
+    border: 3px solid #92b3ed;
+    padding: 10px;
+}
+
+div.game img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.img-button {
+    position: relative;
+}
+
+div.img-button button {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.img-button a {
+    display: block;
+    padding: 10px;
+    border:#92b3ed solid 5px;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+p.p-1 {
+    display: block;
+    background-color: white;
+    border: 3px solid #92b3ed;
+    padding: 1em;
+    margin-top: 10px;
+}
+
+h2 {
+    text-decoration: underline;
+    margin: .5em;
+    text-align: center;
+}
+
+div.introduction {
+    display:block;
+    background-color:white;
+    border: 3px solid #92b3ed;
+    padding: 10px;
+}
+

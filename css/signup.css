@@ -1,0 +1,110 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+
+html, body {
+    width:100%;
+    height:100%;
+    background-color:#a2e3f2;
+}
+
+body {
+    background-image: url(https://wallpapercave.com/wp/wp4865916.jpg);
+    background-size: cover;
+}
+
+div.div-0 a {
+    display:block;
+    background-color:#4a7ed9;
+    margin: 10px;
+    padding: 10px;
+    margin-right: 1200px;
+    border: white 1px solid;
+    border-radius: 10px;
+}
+
+div.div-0 a i{
+    color: white;
+    font-size: 2rem;
+}
+
+h1 {
+    display:block;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    margin-left: 450px;
+    margin-right: 450px;
+    background-color: #4a7ed9;
+    padding:10px;
+    color:white;
+    text-align: center;
+    border: white 3px solid;
+    border-radius: 10px;
+}
+
+.div-2 {
+    display: block;
+    padding: 20px;
+    margin-left: 450px;
+    margin-right: 450px;
+    background-color:#92b3ed;
+    border: white 3px solid;
+    border-radius: 10px;
+}
+
+.div-2 p{
+    color:black;
+    margin-left: 1em;
+    
+}
+
+.div-01 {
+    display:block;
+    margin: 0 20px 20px 0;
+    background-color: white;
+    border: black solid 1px;
+    border-radius: 10px;
+    padding:1em;
+    width:85%;
+}
+
+
+
+.div-02 {
+    display:block;
+    margin: 0 20px 20px 0;
+    background-color: white;
+    border: black solid 1px;
+    border-radius: 10px;
+    padding:1em;
+    width:85%;
+}
+
+.div-03 {
+    display:block;
+    margin: 0 20px 20px 0;
+    background-color: white;
+    border: black solid 1px;
+    border-radius: 10px;
+    padding:1em;
+    width:85%;
+}
+
+.div-04 {
+    display:block;
+    margin: 10px 30px 10px 30px;
+    background-color:#4a7ed9;
+    padding: .5em;
+    color: white;
+    text-align: center;
+    border: white 1px solid;
+    border-radius: 10px;
+}
+
+
+
+div.div-2 a {
+    text-decoration: none;
+}
