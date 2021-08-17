@@ -1,0 +1,146 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+
+html, body {
+    width:100%;
+    height:100%;
+    background-color:#a2e3f2;
+}
+
+body {
+    display:grid;
+    grid-template-columns: 1fr 8fr;
+    background-color: #a2e3f2;
+    Font-size: 16px;
+    font-family:sans-serif;
+}
+
+nav {
+    background-color: #92b3ed;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li img {
+    width: 90px;
+    margin-left: 1.5em;
+    margin-top: 1em;
+    border-radius: 50%;
+}
+
+nav ul li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 1em;
+    text-decoration: none;
+    transition: all 0.5s;
+    margin: 5px;
+    background-color:#4a7ed9;
+}
+
+nav ul li a:hover {
+    background-color:#194288;
+}
+
+h1 {
+    display:block;
+    background-color:white;
+    border: 3px solid #92b3ed;
+    padding:15px;
+    margin:20px 100px;
+    text-align: center;
+}
+
+section {
+    display:block;
+    background-color: #92b3ed;
+    padding: 15px;
+    margin:20px;
+}
+
+section img {
+    width: 90px;
+    position: absolute;
+    margin-left: 2em;
+    margin-top: 5px;
+    border-radius: 50%;
+}
+
+/*.div-1 {
+    display: grid;
+    grid-template-rows: 8fr 1fr;
+}*/
+
+.div-1 input{
+    display:block;
+    background-color: white;
+    width: 800px;
+    padding: 1.3em;
+    position:relative;
+    margin: 20px 10px 10px 150px;
+    border: #4a7ed9 solid 2px;
+    font-size: 17px;
+}
+
+.div-2 {
+    display:block;
+    width:1000px;
+    height:400px;
+    padding: 1em;
+    position: relative;
+    margin: 20px 10px 10px 10px;
+    border:white solid 3px;
+}
+
+.div-01{
+    display:block;
+    background-color: white;
+    width: 800px;
+    padding: 1em;
+    position:relative;
+    margin: 20px 50px 10px 130px;
+    border: #4a7ed9 solid 2px;
+}
+
+.div-02 {
+    display:block;
+    background-color: white;
+    width: 600px;
+    padding: 1em;
+    position:relative;
+    margin: 10px 50px 10px 200px;
+    border: #4a7ed9 solid 2px;
+}
+
+.div-03 {
+    display:block;
+    background-color: white;
+    width: 800px;
+    padding: 1em;
+    position:relative;
+    margin: 30px 50px 10px 130px;
+    border: #4a7ed9 solid 2px;
+}
+
+.div-04 {
+    display:block;
+    background-color: white;
+    width: 800px;
+    padding: 1em;
+    position:relative;
+    margin: 30px 50px 10px 130px;
+    border: #4a7ed9 solid 2px;
+}
+
+.div-2 img {
+    width: 70px;
+    position: absolute;
+    margin-left: 2em;
+    margin-top: 5px;
+    border-radius: 50%;
+}
